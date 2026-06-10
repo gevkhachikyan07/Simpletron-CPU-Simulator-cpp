@@ -235,8 +235,8 @@ int main(){
     int accumulator{0};
     int instructionCounter{0}; //stores the number of memory location
     int operationCode{0};//stores the opperation currently being performed(left 2 digits)
-    int operand{0};//to store the number of memory location on which the current instruction operates(right 2 digits)
-    int instructionRegister{0};// for transfering the next instruction into yhis variable and then picking left 2 and right 2 nums
+    int operand{0};//to store the number of memory location on which the current instruction operates(right 3 digits)
+    int instructionRegister{0};// for transfering the next instruction into yhis variable and then picking left 2 and right 3 digs
     cout << endl;
     cout<<"***           Welcome to Simpletron             ***\n";
     cout<<"***                                             ***\n";
